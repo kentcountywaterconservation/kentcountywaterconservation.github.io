@@ -16,7 +16,7 @@ function init() {
 	
 	// Add geoJSON layer for state parcels
 	L.geoJson(state_parcels, {
-		onEachFeature: bindStateInfo,
+	
 		style: { 'color': parcelColors["state"] }
 	}).addTo(map);
 	
