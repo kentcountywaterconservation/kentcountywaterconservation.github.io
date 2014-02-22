@@ -1,3 +1,4 @@
+var map;
 window.onload = init;
 
 function init() {
